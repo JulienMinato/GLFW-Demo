@@ -7,9 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC1B5F5927855EA200FE19A2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1B5F5827855EA200FE19A2 /* main.cpp */; };
+		EC1B5F5927855EA200FE19A2 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1B5F5827855EA200FE19A2 /* triangle.cpp */; };
 		EC1B5F5E27855FF800FE19A2 /* helloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1B5F5D27855FF800FE19A2 /* helloWorld.cpp */; };
+		EC1D9D082787FE8E005EDF40 /* libGLAD.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */; };
+		EC1D9D092787FEAF005EDF40 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */; };
+		EC1D9D2827880508005EDF40 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9D1927880508005EDF40 /* imgui_demo.cpp */; };
+		EC1D9D2927880508005EDF40 /* imgui.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D1A27880508005EDF40 /* imgui.h */; };
+		EC1D9D2A27880508005EDF40 /* imgui_impl_opengl3.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D1B27880508005EDF40 /* imgui_impl_opengl3.h */; };
+		EC1D9D2B27880508005EDF40 /* imstb_textedit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D1C27880508005EDF40 /* imstb_textedit.h */; };
+		EC1D9D2C27880508005EDF40 /* imgui_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D1D27880508005EDF40 /* imgui_internal.h */; };
+		EC1D9D2D27880508005EDF40 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9D1E27880508005EDF40 /* imgui_draw.cpp */; };
+		EC1D9D2E27880508005EDF40 /* imstb_truetype.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D1F27880508005EDF40 /* imstb_truetype.h */; };
+		EC1D9D2F27880508005EDF40 /* imconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D2027880508005EDF40 /* imconfig.h */; };
+		EC1D9D3027880508005EDF40 /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9D2127880508005EDF40 /* imgui_impl_opengl3.cpp */; };
+		EC1D9D3127880508005EDF40 /* imgui_impl_glfw.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D2227880508005EDF40 /* imgui_impl_glfw.h */; };
+		EC1D9D3227880508005EDF40 /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9D2327880508005EDF40 /* imgui_impl_glfw.cpp */; };
+		EC1D9D3327880508005EDF40 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9D2427880508005EDF40 /* imgui.cpp */; };
+		EC1D9D3427880508005EDF40 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9D2527880508005EDF40 /* imgui_widgets.cpp */; };
+		EC1D9D3527880508005EDF40 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9D2627880508005EDF40 /* imgui_tables.cpp */; };
+		EC1D9D3627880508005EDF40 /* imstb_rectpack.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D2727880508005EDF40 /* imstb_rectpack.h */; };
+		EC1D9D3827880551005EDF40 /* imgui_impl_opengl3_loader.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1D9D3727880551005EDF40 /* imgui_impl_opengl3_loader.h */; };
+		EC1D9D3B2788059D005EDF40 /* libGLAD.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */; };
+		EC1D9D3C278805AE005EDF40 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */; };
+		EC1D9D4027880B4F005EDF40 /* libDear ImGui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1D9D0E27880303005EDF40 /* libDear ImGui.dylib */; };
+		EC2E8DB42787FB5700B6F123 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = EC2E8DB32787FB5700B6F123 /* glad.c */; };
+		EC2E8DB92787FC0500B6F123 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */; };
+		EC2E8DBA2787FC4400B6F123 /* libGLAD.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1D9D062787FE89005EDF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B5F3327855C8800FE19A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2E8DA72787FB1C00B6F123;
+			remoteInfo = GLAD;
+		};
+		EC1D9D392788058C005EDF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B5F3327855C8800FE19A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2E8DA72787FB1C00B6F123;
+			remoteInfo = GLAD;
+		};
+		EC1D9D3D278805C5005EDF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B5F3327855C8800FE19A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1D9D0D27880303005EDF40;
+			remoteInfo = "Dear ImGui";
+		};
+		EC2E8DB52787FBA900B6F123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B5F3327855C8800FE19A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2E8DA72787FB1C00B6F123;
+			remoteInfo = GLAD;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EC1B5F4927855CFB00FE19A2 /* CopyFiles */ = {
@@ -35,8 +90,28 @@
 /* Begin PBXFileReference section */
 		EC1B5F4B27855CFB00FE19A2 /* helloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1B5F5627855EA200FE19A2 /* triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = triangle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1B5F5827855EA200FE19A2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC1B5F5827855EA200FE19A2 /* triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
 		EC1B5F5D27855FF800FE19A2 /* helloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = helloWorld.cpp; sourceTree = "<group>"; };
+		EC1D9D0E27880303005EDF40 /* libDear ImGui.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libDear ImGui.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1D9D1927880508005EDF40 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		EC1D9D1A27880508005EDF40 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		EC1D9D1B27880508005EDF40 /* imgui_impl_opengl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_opengl3.h; sourceTree = "<group>"; };
+		EC1D9D1C27880508005EDF40 /* imstb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
+		EC1D9D1D27880508005EDF40 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		EC1D9D1E27880508005EDF40 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		EC1D9D1F27880508005EDF40 /* imstb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_truetype.h; sourceTree = "<group>"; };
+		EC1D9D2027880508005EDF40 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		EC1D9D2127880508005EDF40 /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
+		EC1D9D2227880508005EDF40 /* imgui_impl_glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_glfw.h; sourceTree = "<group>"; };
+		EC1D9D2327880508005EDF40 /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glfw.cpp; sourceTree = "<group>"; };
+		EC1D9D2427880508005EDF40 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		EC1D9D2527880508005EDF40 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		EC1D9D2627880508005EDF40 /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
+		EC1D9D2727880508005EDF40 /* imstb_rectpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
+		EC1D9D3727880551005EDF40 /* imgui_impl_opengl3_loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_opengl3_loader.h; sourceTree = "<group>"; };
+		EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libGLAD.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2E8DB32787FB5700B6F123 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../opt/homebrew/Cellar/glfw/3.3.6/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,10 +119,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1D9D4027880B4F005EDF40 /* libDear ImGui.dylib in Frameworks */,
+				EC2E8DBA2787FC4400B6F123 /* libGLAD.dylib in Frameworks */,
+				EC2E8DB92787FC0500B6F123 /* libglfw.3.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EC1B5F5327855EA200FE19A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D9D092787FEAF005EDF40 /* libglfw.3.3.dylib in Frameworks */,
+				EC1D9D082787FE8E005EDF40 /* libGLAD.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D9D0C27880303005EDF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D9D3C278805AE005EDF40 /* libglfw.3.3.dylib in Frameworks */,
+				EC1D9D3B2788059D005EDF40 /* libGLAD.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2E8DA62787FB1C00B6F123 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +158,10 @@
 			children = (
 				EC1B5F4C27855CFB00FE19A2 /* helloWorld */,
 				EC1B5F5727855EA200FE19A2 /* triangle */,
+				EC2E8DA92787FB1C00B6F123 /* GLAD */,
+				EC1D9D0F27880303005EDF40 /* Dear ImGui */,
 				EC1B5F3C27855C8800FE19A2 /* Products */,
+				EC2E8DB72787FC0500B6F123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +170,8 @@
 			children = (
 				EC1B5F4B27855CFB00FE19A2 /* helloWorld */,
 				EC1B5F5627855EA200FE19A2 /* triangle */,
+				EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */,
+				EC1D9D0E27880303005EDF40 /* libDear ImGui.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,12 +187,77 @@
 		EC1B5F5727855EA200FE19A2 /* triangle */ = {
 			isa = PBXGroup;
 			children = (
-				EC1B5F5827855EA200FE19A2 /* main.cpp */,
+				EC1B5F5827855EA200FE19A2 /* triangle.cpp */,
 			);
 			path = triangle;
 			sourceTree = "<group>";
 		};
+		EC1D9D0F27880303005EDF40 /* Dear ImGui */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D9D2027880508005EDF40 /* imconfig.h */,
+				EC1D9D3727880551005EDF40 /* imgui_impl_opengl3_loader.h */,
+				EC1D9D1927880508005EDF40 /* imgui_demo.cpp */,
+				EC1D9D1E27880508005EDF40 /* imgui_draw.cpp */,
+				EC1D9D2327880508005EDF40 /* imgui_impl_glfw.cpp */,
+				EC1D9D2227880508005EDF40 /* imgui_impl_glfw.h */,
+				EC1D9D2127880508005EDF40 /* imgui_impl_opengl3.cpp */,
+				EC1D9D1B27880508005EDF40 /* imgui_impl_opengl3.h */,
+				EC1D9D1D27880508005EDF40 /* imgui_internal.h */,
+				EC1D9D2627880508005EDF40 /* imgui_tables.cpp */,
+				EC1D9D2527880508005EDF40 /* imgui_widgets.cpp */,
+				EC1D9D2427880508005EDF40 /* imgui.cpp */,
+				EC1D9D1A27880508005EDF40 /* imgui.h */,
+				EC1D9D2727880508005EDF40 /* imstb_rectpack.h */,
+				EC1D9D1C27880508005EDF40 /* imstb_textedit.h */,
+				EC1D9D1F27880508005EDF40 /* imstb_truetype.h */,
+			);
+			path = "Dear ImGui";
+			sourceTree = "<group>";
+		};
+		EC2E8DA92787FB1C00B6F123 /* GLAD */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E8DB32787FB5700B6F123 /* glad.c */,
+			);
+			path = GLAD;
+			sourceTree = "<group>";
+		};
+		EC2E8DB72787FC0500B6F123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC1D9D0A27880303005EDF40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D9D2927880508005EDF40 /* imgui.h in Headers */,
+				EC1D9D3627880508005EDF40 /* imstb_rectpack.h in Headers */,
+				EC1D9D3127880508005EDF40 /* imgui_impl_glfw.h in Headers */,
+				EC1D9D2E27880508005EDF40 /* imstb_truetype.h in Headers */,
+				EC1D9D2C27880508005EDF40 /* imgui_internal.h in Headers */,
+				EC1D9D2B27880508005EDF40 /* imstb_textedit.h in Headers */,
+				EC1D9D3827880551005EDF40 /* imgui_impl_opengl3_loader.h in Headers */,
+				EC1D9D2F27880508005EDF40 /* imconfig.h in Headers */,
+				EC1D9D2A27880508005EDF40 /* imgui_impl_opengl3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2E8DA42787FB1C00B6F123 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		EC1B5F4A27855CFB00FE19A2 /* helloWorld */ = {
@@ -105,6 +271,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				EC1D9D3E278805C5005EDF40 /* PBXTargetDependency */,
+				EC2E8DB62787FBA900B6F123 /* PBXTargetDependency */,
 			);
 			name = helloWorld;
 			productName = helloWorld;
@@ -122,11 +290,47 @@
 			buildRules = (
 			);
 			dependencies = (
+				EC1D9D072787FE89005EDF40 /* PBXTargetDependency */,
 			);
 			name = triangle;
 			productName = triangle;
 			productReference = EC1B5F5627855EA200FE19A2 /* triangle */;
 			productType = "com.apple.product-type.tool";
+		};
+		EC1D9D0D27880303005EDF40 /* Dear ImGui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1D9D1627880303005EDF40 /* Build configuration list for PBXNativeTarget "Dear ImGui" */;
+			buildPhases = (
+				EC1D9D0A27880303005EDF40 /* Headers */,
+				EC1D9D0B27880303005EDF40 /* Sources */,
+				EC1D9D0C27880303005EDF40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1D9D3A2788058C005EDF40 /* PBXTargetDependency */,
+			);
+			name = "Dear ImGui";
+			productName = "Dear ImGui";
+			productReference = EC1D9D0E27880303005EDF40 /* libDear ImGui.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		EC2E8DA72787FB1C00B6F123 /* GLAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2E8DB02787FB1C00B6F123 /* Build configuration list for PBXNativeTarget "GLAD" */;
+			buildPhases = (
+				EC2E8DA42787FB1C00B6F123 /* Headers */,
+				EC2E8DA52787FB1C00B6F123 /* Sources */,
+				EC2E8DA62787FB1C00B6F123 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLAD;
+			productName = GLAD;
+			productReference = EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
@@ -141,6 +345,12 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					EC1B5F5527855EA200FE19A2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC1D9D0D27880303005EDF40 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC2E8DA72787FB1C00B6F123 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -160,6 +370,8 @@
 			targets = (
 				EC1B5F4A27855CFB00FE19A2 /* helloWorld */,
 				EC1B5F5527855EA200FE19A2 /* triangle */,
+				EC2E8DA72787FB1C00B6F123 /* GLAD */,
+				EC1D9D0D27880303005EDF40 /* Dear ImGui */,
 			);
 		};
 /* End PBXProject section */
@@ -177,17 +389,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1B5F5927855EA200FE19A2 /* main.cpp in Sources */,
+				EC1B5F5927855EA200FE19A2 /* triangle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D9D0B27880303005EDF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D9D2827880508005EDF40 /* imgui_demo.cpp in Sources */,
+				EC1D9D3427880508005EDF40 /* imgui_widgets.cpp in Sources */,
+				EC1D9D3027880508005EDF40 /* imgui_impl_opengl3.cpp in Sources */,
+				EC1D9D2D27880508005EDF40 /* imgui_draw.cpp in Sources */,
+				EC1D9D3227880508005EDF40 /* imgui_impl_glfw.cpp in Sources */,
+				EC1D9D3527880508005EDF40 /* imgui_tables.cpp in Sources */,
+				EC1D9D3327880508005EDF40 /* imgui.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2E8DA52787FB1C00B6F123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2E8DB42787FB5700B6F123 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EC1D9D072787FE89005EDF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2E8DA72787FB1C00B6F123 /* GLAD */;
+			targetProxy = EC1D9D062787FE89005EDF40 /* PBXContainerItemProxy */;
+		};
+		EC1D9D3A2788058C005EDF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2E8DA72787FB1C00B6F123 /* GLAD */;
+			targetProxy = EC1D9D392788058C005EDF40 /* PBXContainerItemProxy */;
+		};
+		EC1D9D3E278805C5005EDF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1D9D0D27880303005EDF40 /* Dear ImGui */;
+			targetProxy = EC1D9D3D278805C5005EDF40 /* PBXContainerItemProxy */;
+		};
+		EC2E8DB62787FBA900B6F123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2E8DA72787FB1C00B6F123 /* GLAD */;
+			targetProxy = EC2E8DB52787FBA900B6F123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		EC1B5F4027855C8800FE19A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -235,6 +492,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/liang/Projects/GLFW-Demo/include",
+					/opt/homebrew/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -246,7 +507,7 @@
 		EC1B5F4127855C8800FE19A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -288,6 +549,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/liang/Projects/GLFW-Demo/include",
+					/opt/homebrew/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -299,6 +564,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -307,6 +576,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -315,6 +588,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -323,7 +600,83 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC1D9D1727880303005EDF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC1D9D1827880303005EDF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC2E8DB12787FB1C00B6F123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC2E8DB22787FB1C00B6F123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -353,6 +706,24 @@
 			buildConfigurations = (
 				EC1B5F5B27855EA200FE19A2 /* Debug */,
 				EC1B5F5C27855EA200FE19A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1D9D1627880303005EDF40 /* Build configuration list for PBXNativeTarget "Dear ImGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D9D1727880303005EDF40 /* Debug */,
+				EC1D9D1827880303005EDF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2E8DB02787FB1C00B6F123 /* Build configuration list for PBXNativeTarget "GLAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2E8DB12787FB1C00B6F123 /* Debug */,
+				EC2E8DB22787FB1C00B6F123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
