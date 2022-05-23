@@ -177,7 +177,6 @@
 		EC33CBEA2791220100C0E295 /* shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.fs; sourceTree = "<group>"; };
 		EC33CBF02791271200C0E295 /* libSTB_IMAGE.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSTB_IMAGE.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC33CBFB2791294A00C0E295 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
-		EC33CC0327912A1E00C0E295 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,7 +255,6 @@
 				EC1D9D4627880C38005EDF40 /* ImGuiExample */,
 				EC33CBD92791203500C0E295 /* shaderClass */,
 				EC33CBF12791271200C0E295 /* STB_IMAGE */,
-				EC33CC0227912A1E00C0E295 /* pro1_Blended_Edged_Elliptical_Dots */,
 				EC1B5F3C27855C8800FE19A2 /* Products */,
 				EC2E8DB72787FC0500B6F123 /* Frameworks */,
 			);
@@ -355,14 +353,6 @@
 				EC33CBFB2791294A00C0E295 /* stb_image.cpp */,
 			);
 			path = STB_IMAGE;
-			sourceTree = "<group>";
-		};
-		EC33CC0227912A1E00C0E295 /* pro1_Blended_Edged_Elliptical_Dots */ = {
-			isa = PBXGroup;
-			children = (
-				EC33CC0327912A1E00C0E295 /* main.cpp */,
-			);
-			path = pro1_Blended_Edged_Elliptical_Dots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
