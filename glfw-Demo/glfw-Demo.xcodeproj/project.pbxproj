@@ -37,6 +37,13 @@
 		EC2E8DB42787FB5700B6F123 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = EC2E8DB32787FB5700B6F123 /* glad.c */; };
 		EC2E8DB92787FC0500B6F123 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */; };
 		EC2E8DBA2787FC4400B6F123 /* libGLAD.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */; };
+		EC33CBE0279120DC00C0E295 /* shaderClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC33CBDF279120DC00C0E295 /* shaderClass.cpp */; };
+		EC33CBE32791216D00C0E295 /* libGLAD.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */; };
+		EC33CBE42791217000C0E295 /* libDear ImGui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1D9D0E27880303005EDF40 /* libDear ImGui.dylib */; };
+		EC33CBE72791218900C0E295 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */; };
+		EC33CBE9279121E500C0E295 /* shader.vs in Sources */ = {isa = PBXBuildFile; fileRef = EC33CBE8279121E500C0E295 /* shader.vs */; };
+		EC33CBEB2791220100C0E295 /* shader.fs in Sources */ = {isa = PBXBuildFile; fileRef = EC33CBEA2791220100C0E295 /* shader.fs */; };
+		EC33CBFC2791294A00C0E295 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC33CBFB2791294A00C0E295 /* stb_image.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +89,20 @@
 			remoteGlobalIDString = EC2E8DA72787FB1C00B6F123;
 			remoteInfo = GLAD;
 		};
+		EC33CBE12791215F00C0E295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B5F3327855C8800FE19A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2E8DA72787FB1C00B6F123;
+			remoteInfo = GLAD;
+		};
+		EC33CBE52791217B00C0E295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B5F3327855C8800FE19A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1D9D0D27880303005EDF40;
+			remoteInfo = "Dear ImGui";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,6 +125,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EC1D9D4327880C38005EDF40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EC33CBD62791203500C0E295 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -141,6 +171,13 @@
 		EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libGLAD.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2E8DB32787FB5700B6F123 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		EC2E8DB82787FC0500B6F123 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../opt/homebrew/Cellar/glfw/3.3.6/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		EC33CBD82791203500C0E295 /* shaderClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shaderClass; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33CBDF279120DC00C0E295 /* shaderClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shaderClass.cpp; sourceTree = "<group>"; };
+		EC33CBE8279121E500C0E295 /* shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vs; sourceTree = "<group>"; };
+		EC33CBEA2791220100C0E295 /* shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.fs; sourceTree = "<group>"; };
+		EC33CBF02791271200C0E295 /* libSTB_IMAGE.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSTB_IMAGE.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33CBFB2791294A00C0E295 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
+		EC33CC0327912A1E00C0E295 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +226,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC33CBD52791203500C0E295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33CBE72791218900C0E295 /* libglfw.3.3.dylib in Frameworks */,
+				EC33CBE42791217000C0E295 /* libDear ImGui.dylib in Frameworks */,
+				EC33CBE32791216D00C0E295 /* libGLAD.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33CBEE2791271200C0E295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -200,6 +254,9 @@
 				EC2E8DA92787FB1C00B6F123 /* GLAD */,
 				EC1D9D0F27880303005EDF40 /* Dear ImGui */,
 				EC1D9D4627880C38005EDF40 /* ImGuiExample */,
+				EC33CBD92791203500C0E295 /* shaderClass */,
+				EC33CBF12791271200C0E295 /* STB_IMAGE */,
+				EC33CC0227912A1E00C0E295 /* pro1_Blended_Edged_Elliptical_Dots */,
 				EC1B5F3C27855C8800FE19A2 /* Products */,
 				EC2E8DB72787FC0500B6F123 /* Frameworks */,
 			);
@@ -213,6 +270,8 @@
 				EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */,
 				EC1D9D0E27880303005EDF40 /* libDear ImGui.dylib */,
 				EC1D9D4527880C38005EDF40 /* ImGuiExample */,
+				EC33CBD82791203500C0E295 /* shaderClass */,
+				EC33CBF02791271200C0E295 /* libSTB_IMAGE.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +339,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC33CBD92791203500C0E295 /* shaderClass */ = {
+			isa = PBXGroup;
+			children = (
+				EC33CBDF279120DC00C0E295 /* shaderClass.cpp */,
+				EC33CBE8279121E500C0E295 /* shader.vs */,
+				EC33CBEA2791220100C0E295 /* shader.fs */,
+			);
+			path = shaderClass;
+			sourceTree = "<group>";
+		};
+		EC33CBF12791271200C0E295 /* STB_IMAGE */ = {
+			isa = PBXGroup;
+			children = (
+				EC33CBFB2791294A00C0E295 /* stb_image.cpp */,
+			);
+			path = STB_IMAGE;
+			sourceTree = "<group>";
+		};
+		EC33CC0227912A1E00C0E295 /* pro1_Blended_Edged_Elliptical_Dots */ = {
+			isa = PBXGroup;
+			children = (
+				EC33CC0327912A1E00C0E295 /* main.cpp */,
+			);
+			path = pro1_Blended_Edged_Elliptical_Dots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -300,6 +385,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EC2E8DA42787FB1C00B6F123 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33CBEC2791271200C0E295 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,6 +492,42 @@
 			productReference = EC2E8DA82787FB1C00B6F123 /* libGLAD.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		EC33CBD72791203500C0E295 /* shaderClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33CBDE2791203500C0E295 /* Build configuration list for PBXNativeTarget "shaderClass" */;
+			buildPhases = (
+				EC33CBD42791203500C0E295 /* Sources */,
+				EC33CBD52791203500C0E295 /* Frameworks */,
+				EC33CBD62791203500C0E295 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC33CBE62791217B00C0E295 /* PBXTargetDependency */,
+				EC33CBE22791215F00C0E295 /* PBXTargetDependency */,
+			);
+			name = shaderClass;
+			productName = shaderClass;
+			productReference = EC33CBD82791203500C0E295 /* shaderClass */;
+			productType = "com.apple.product-type.tool";
+		};
+		EC33CBEF2791271200C0E295 /* STB_IMAGE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33CBF82791271200C0E295 /* Build configuration list for PBXNativeTarget "STB_IMAGE" */;
+			buildPhases = (
+				EC33CBEC2791271200C0E295 /* Headers */,
+				EC33CBED2791271200C0E295 /* Sources */,
+				EC33CBEE2791271200C0E295 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STB_IMAGE;
+			productName = STB_IMAGE;
+			productReference = EC33CBF02791271200C0E295 /* libSTB_IMAGE.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -407,7 +535,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					EC1B5F4A27855CFB00FE19A2 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -422,6 +550,12 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					EC2E8DA72787FB1C00B6F123 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC33CBD72791203500C0E295 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC33CBEF2791271200C0E295 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -444,6 +578,8 @@
 				EC2E8DA72787FB1C00B6F123 /* GLAD */,
 				EC1D9D0D27880303005EDF40 /* Dear ImGui */,
 				EC1D9D4427880C38005EDF40 /* ImGuiExample */,
+				EC33CBD72791203500C0E295 /* shaderClass */,
+				EC33CBEF2791271200C0E295 /* STB_IMAGE */,
 			);
 		};
 /* End PBXProject section */
@@ -495,6 +631,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC33CBD42791203500C0E295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33CBEB2791220100C0E295 /* shader.fs in Sources */,
+				EC33CBE9279121E500C0E295 /* shader.vs in Sources */,
+				EC33CBE0279120DC00C0E295 /* shaderClass.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33CBED2791271200C0E295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33CBFC2791294A00C0E295 /* stb_image.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -527,6 +681,16 @@
 			isa = PBXTargetDependency;
 			target = EC2E8DA72787FB1C00B6F123 /* GLAD */;
 			targetProxy = EC2E8DB52787FBA900B6F123 /* PBXContainerItemProxy */;
+		};
+		EC33CBE22791215F00C0E295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2E8DA72787FB1C00B6F123 /* GLAD */;
+			targetProxy = EC33CBE12791215F00C0E295 /* PBXContainerItemProxy */;
+		};
+		EC33CBE62791217B00C0E295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1D9D0D27880303005EDF40 /* Dear ImGui */;
+			targetProxy = EC33CBE52791217B00C0E295 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -653,6 +817,7 @@
 		EC1B5F5027855CFB00FE19A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -665,6 +830,7 @@
 		EC1B5F5127855CFB00FE19A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,6 +843,7 @@
 		EC1B5F5B27855EA200FE19A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -689,6 +856,7 @@
 		EC1B5F5C27855EA200FE19A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -742,6 +910,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -755,6 +924,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -781,6 +951,66 @@
 			name = Debug;
 		};
 		EC2E8DB22787FB1C00B6F123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC33CBDC2791203500C0E295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC33CBDD2791203500C0E295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/glfw/3.3.6/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC33CBF92791271200C0E295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC33CBFA2791271200C0E295 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -849,6 +1079,24 @@
 			buildConfigurations = (
 				EC2E8DB12787FB1C00B6F123 /* Debug */,
 				EC2E8DB22787FB1C00B6F123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC33CBDE2791203500C0E295 /* Build configuration list for PBXNativeTarget "shaderClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33CBDC2791203500C0E295 /* Debug */,
+				EC33CBDD2791203500C0E295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC33CBF82791271200C0E295 /* Build configuration list for PBXNativeTarget "STB_IMAGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33CBF92791271200C0E295 /* Debug */,
+				EC33CBFA2791271200C0E295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
